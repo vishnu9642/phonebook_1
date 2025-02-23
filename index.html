@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Phonebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Photo Phonebook</h2>
+        <div class="input-container">
+            <input type="text" id="name" placeholder="Name">
+            <input type="tel" id="number" placeholder="Phone Number">
+            <input type="file" id="image" accept="image/*">
+            <button onclick="addContact()">Add Contact</button>
+        </div>
+        
+        <h3>Contacts</h3>
+        <div class="contact-list" id="contactList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
